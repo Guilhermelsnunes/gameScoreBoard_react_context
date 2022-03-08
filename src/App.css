@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+#header{
+  padding: 10px;
+  margin: 5px;
+  border: black 3px solid;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#scores-container{
+  background-color: pink;
+  border: black 3px solid;
+  width: 50%;
+  height: 300px;
+  margin: 5px;
+
+}
+
+ul{
+  background-color: aliceblue;
+  padding: 5px;
+  border: black 3px solid;
+  margin: 5px;
+}
+
+#form-container{
+  background-color: lightgoldenrodyellow;
+  border: black 3px solid;
+  width: 50%;
+  height: 300px;
+  margin: 5px;
+}
+
+
+
+li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hotpink;
+  border: black 3px solid;
+  padding: 5px;
+  margin: 5px;
+  list-style-type: none;
+}
